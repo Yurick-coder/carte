@@ -24,18 +24,19 @@ var villes = { // seules les villes ajoutées dans ce tableau sont affichées su
   "Tokyo": { "lat": 35.689487, "lon": 139.691706 },/*FRANCESCA*/
   "Quimper": { "lat": 48.000, "lon": -4.100 },/*MATHIEU K*/
   "Bayonne": { "lat": 43.500, "lon": -1.467 },/*ELISA*/
-    "Bayonne": { "lat": 43.500, "lon": -1.467 },/*MATHIS*/
-    "Bayonne": { "lat": 43.500, "lon": -1.467 },/*THIBAULT*/
+    "Athenes": { "lat": 37.983810, "lon": 23.727539 },/*MATHIS*/
+    "Montpellier": { "lat": 43.5495, "lon": 3.8768 },/*REMI*/
+    "Lille": { "lat": 50.6333, "lon": 3.0667 },/*THIBAULT*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 },/*REMI*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 },/*CLEMENT*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 },/*ANTHONY*/
-    "Bayonne": { "lat": 43.500, "lon": -1.467 },/*MATHIEU V*/
+    "Vimy": { "lat": 50.366667, "lon": 2.816667 },/*MATHIEU V*/
     "Milan": { "lat": 45.4612, "lon": 9.1878 },/*COLINE*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 },/*EMILIE*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 },/*MAXIME*/
-    "Bayonne": { "lat": 43.500, "lon": -1.467 },/*MERLIN*/
+    "Londres": { "lat": 51.4549, "lon": -0.1263 },/*MERLIN*/
     "Bayonne": { "lat": 43.500, "lon": -1.467 }/*VICTOR*/
-    
+
 };
 
 window.onload = function(){
@@ -76,8 +77,8 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
-        
+
+
  <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_PTokyo" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -96,8 +97,8 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
-        
+
+
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Brest" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -116,10 +117,10 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
-        
-        
-        
+
+
+
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bruay-la-bruisiière" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -138,65 +139,67 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Quimper" class="card bg-dark m-2">
+        <div id="ville_Athenes" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
             <!-- ville MATHIS : on change "id", nom, description, image, et aller vers les lignes 23 à 27, changez les coordonées gps et le nom-->
           <div class="card-header">
-            <div class="card-title h5">Quimper</div>
+            <div class="card-title h5">Athènes</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="Athenes_image.png" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Athènes est la capitale et la plus grande ville de la Grèce. En 2011, elle compte 664 046 habitants intra-muros sur une superficie de 39 km2. Son aire urbaine, le Grand Athènes, en compte plus de 4 millions. Berceau de la civilisation occidentale et dotée d'un riche passé, la ville est aujourd'hui le cœur politique, économique et culturel de la République hellénique, dont elle accueille la plupart des institutions, comme le Parlement, l'Áreios Págos (cour suprême) et le siège du Gouvernement.
           </div>
         </div>
       </div>
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+             <div id="ville_Lille" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
             <!-- ville THIBAULT : on change "id", nom, description, image, et aller vers les lignes 23 à 27, changez les coordonées gps et le nom-->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Lille</div>
+            <div class="card-subtitle text-gray">Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="Lille_image.jpg" class="img-responsive">
+          </div>
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
-          </div>
+            Lille est une ville du nord de la France, préfecture du département du Nord et chef-lieu de la région Hauts-de-France.
+            Avec 232 787 habitants intra-muros au dernier recensement en 2017, Lille est la principale commune de la Métropole européenne de Lille,
+            </div>
         </div>
       </div>
 
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Montpellier" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
             <!-- ville REMI : on change "id", nom, description, image, et aller vers les lignes 23 à 27, changez les coordonées gps et le nom-->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Montpellier</div>
+            <div class="card-subtitle text-gray">Chef-lieu</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="Montpellier_PhotoMontage_01.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Montpellier est une commune française, préfecture du département de l’Hérault. Capitale de l'ancienne région administrative Languedoc-Roussillon, elle est le centre d'une métropole et un pôle d'équilibre de la région Occitanie, où se déroulent les assemblées plénières. Montpellier se situe dans le Sud de la France, sur un grand axe de communication joignant l'Espagne à l'ouest, à l'Italie à l'est. Proche de la mer Méditerranée (7,1 km), cette ville a comme voisines Béziers à 69 km au sud-ouest5 et Nîmes à 52 km au nord-est.
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -215,7 +218,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -234,26 +237,30 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Vimy" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
             <!-- ville MATHIEU VION : on change "id", nom, description, image, et aller vers les lignes 23 à 27, changez les coordonées gps et le nom-->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Vimy</div>
+            <div class="card-subtitle text-gray">Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="Vimy_Mairie2.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Vimy est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France.<br/>
+
+            Elle fait partie de la Communaupole de Lens-Liévin qui regroupe 36 communes et comptait 244 561 habitants en 2010. Elle est traversée par la RN 17 qui relie Arras et Lens.<br/>
+
+            Par arrêté préfectoral du 20 décembre 2016, la commune est détachée le 1er janvier 2017 de l'arrondissement d'Arras pour intégrer l'arrondissement de Lens.
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Milan" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -272,7 +279,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -291,8 +298,8 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
-        
+
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -311,26 +318,26 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
             <!-- ville MERLIN : on change "id", nom, description, image, et aller vers les lignes 23 à 27, changez les coordonées gps et le nom-->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
+            <div class="card-title h5">Londres</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="londres_image.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Londres est connue pour être l’une des plus belle ville du monde, mais aussi l’une des plus diversifiée en terme de culture avec 50 nationalités parlant plus de 300 langues différentes. La ville légendaire est aussi renommée pour la richesse de son histoire et de sa culture qui s’étalent sur presque 2000 ans.
           </div>
         </div>
       </div>
-        
+
         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Bayonne" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
@@ -349,7 +356,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
-        
+
     </div>
 
     <p class="footer bg-secondary text-center">
